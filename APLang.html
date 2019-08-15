@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel="stylesheet" href="rating.css">
+
+    <link rel = "icon" href = "logo.jpg" type = "image/jpeg">
+    <script src="about_me.js"></script>
+    <!-- This is a comment-->
+    <title> Achievers with Purpose </title>
+
+  <body>
+    <div id="header">
+      <img id="profile-pic" src="logo.jpg"> Achievers With Purpose
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+  <body>
+
+    <ul class="topnav">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="dates.html">Dates</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="tutor.html">Tutor Resources</a></li>
+    </ul>
+
+
+  <div class="tab">
+    <a class="sidelinks" href="APMath.html"><button class="tablinks">AP Calculus</button></a>
+    <a class="sidelinks" href="APLang.html"><button class="tablinks">AP Language and Composition</button></a>
+    <a class="sidelinks" href="APScience.html"><button class="tablinks">AP Earth and Enviornmental</button></a>
+    <a class="sidelinks" href="APWorld.html"><button class="tablinks">AP World History</button></a>
+</div>
+<div class="body">
+    <h1>AP Language and Composition:</h1>
+
+    <p>This class is very writing intensive and the exam will definetly have your hand broken as it consists of 45 multiple choice questions (for the 2020 exam) and 3 free response
+      questions (synthesis, analysis, and argumentative). While many say this exam is one of the hardest, it won't be as long as you study the correct techniques needed to write each
+      essay, vocab terms, and take multiple choice practice questions so that you can finish each reading passage on time and correctly. To help you with that, here are some of my
+      recommendations so that you can be successful on the exam.</p>
+
+    <h2><p class="heading">Review Books</h2>
+      <div class = "site"><a href = "https://www.amazon.com/Steps-English-Language-2020-Exam/dp/1260455939/ref=sr_1_6?keywords=ap+language+and+composition+2020&qid=1565204276&s=gateway&sr=8-6" target="_blank" style="color:black">5 Steps to a 5 by Barbara L. Murphy and Estelle M. Rankin</a></div>
+      <img id="lang" src="Lang.jpeg">
+      <div class="ptext">
+      <p class="eng"> This is the book my teacher used and she said it helped guide her whenever<br>she was teaching us, which
+        is why it is the only book she would use if she<br> were us. If you are someone that needs a review book no
+        matter what exam<br> you're taking, then this is for you. The AP Lang exam was not an exam<br> that I used a review book
+        for, but that's because I had really good class notes<br> and didn't feel the need to purchase one. If you are looking
+        fort a resource<br> though, I highly recommend this one because according to my tecaher and<br> other students who did use
+        this book, it is concise and has strategies for how<br> to approach each essay along with practice essays and multiple
+        choice questions.<br> It also has a glossary with useful terms in it, which I feel is particularly necessary<br> for this exam
+        since you need to know the terminology and rhetorical terms to<br> include them in your essay (especially during the analysis essay).</p><br>
+    </div>
+
+    <div class="resources"
+      <body text="black">
+      <h2>AP Lang Resources!</h2>
+      <a href="https://blog.prepscholar.com/ap-language-and-composition-terms" target="_blank" style="color:black">Website with key terms needed for exam</a></p>
+      <a href="https://www.highschooltestprep.com/ap/english-language/" target="_blank" style="color:black">Free practice multiple choice</a></p>
+      <a href="https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam" target="_blank" style="color:black">Write some practice essays!</a></p>
+      </body>
+    </div>
+
+    <meta charset="UTF-8">
+    <title>Did these help you?</title>
+    <meta name="viewport" content="width=device-width">
+
+        <!-- alternate codepen version https://codepen.io/mad-d/pen/aJMPWr?editors=0010 -->
+        <h2><p class=heading>Did this help you?</h2>
+          <div class="stars" data-rating="0">
+              <p class = "star-span" id="star1"><span onclick="incrementValue(1)"class="star">&nbsp;</span></p>
+              <p class = "star-span" id="star2"><span onclick="incrementValue(2)"class="star">&nbsp;</span></p>
+              <p class = "star-span" id="star3"><span onclick="incrementValue(3)"class="star">&nbsp;</span></p>
+              <p class = "star-span" id="star4"><span onclick="incrementValue(4)"class="star">&nbsp;</span></p>
+              <p class = "star-span" id="star5"><span onclick="incrementValue(5)"class="star">&nbsp;</span></p>
+          </div>
+        <p>Leave us a rating to let us know how we can make your learning experience better!</p>
+
+
+        <p id="rating"><p>
+
+
+          <hr style="border:3px solid #f1f1f1">
+<div class ="bar-graph">
+          <div class="row">
+            <div class="side">
+              <div>5 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div id="bar-5" style="width:80%;height:18px;border:1px solid black;"></div>
+              </div>
+            </div>
+            <div class="side right">
+              <div><p id="output5" value="20">20</p></div>
+            </div>
+            <div class="side">
+              <div>4 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div id="bar-4" style="width:60%;height:18px;border:1px solid black;"></div>
+              </div>
+            </div>
+            <div class="side right">
+              <div><div> <p id="output4" value="12">12</p></div></div>
+            </div>
+            <div class="side">
+              <div>3 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div id="bar-3" style="width:20%;height:18px;border:1px solid black;"></div>
+              </div>
+            </div>
+            <div class="side right">
+              <div><div> <p id="output3" value="4">4</p></div></div>
+            </div>
+            <div class="side">
+              <div>2 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div id="bar-2" style="width:5%;height:18px;border:1px solid black;"></div>
+              </div>
+            </div>
+            <div class="side right">
+              <div><div> <p id="output2" value="1">1</p></div></div>
+            </div>
+            <div class="side">
+              <div>1 star</div>
+            </div>
+            <div class="middle">
+              <div class="bar-container">
+                <div id="bar-1" style="width:0%;height:18px;border:1px solid black;"></div>
+              </div>
+            </div>
+            <div class="side right">
+              <div><div> <p id="output1" value="0">0</p></div></div>
+            </div>
+          </div>
+</div>
+
+
+        <h2><div class="m">Leave a comment for Achievers with Purpose:</h2></div>
+<div class="u">
+        <form action="mailto:achieverswithpurpose@gmail.com" method="post" enctype="text/plain">
+
+        Comment:<br>
+        <input type="text" name= "comment" size="50"><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+        </form>
+
+</div>
+
+<script src="rating.js"></script>
+  </body>
+</html>

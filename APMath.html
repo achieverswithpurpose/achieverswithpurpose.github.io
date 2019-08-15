@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="mystyles.css">
+    <link rel = "icon" href = "logo.jpg" type = "image/jpeg">
+    <script src="about_me.js"></script>
+    <link rel="stylesheet" href="rating.css">
+
+    <!-- This is a comment-->
+    <title> Achievers with Purpose </title>
+
+  <body>
+    <div id="header">
+      <img id="profile-pic" src="logo.jpg"> Achievers With Purpose
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {margin: 0;}
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #111;
+    }
+
+    ul.topnav li {float: left;}
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 30px;
+      text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+    ul.topnav li a.active {background-color: #0999F1;}
+
+    ul.topnav li.right {float: right;}
+
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right,
+      ul.topnav li {float: none;}
+    }
+    </style>
+    </head>
+  <body>
+
+    <ul class="topnav">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="dates.html">Dates</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="tutor.html">Tutor Resources</a></li>
+    </ul>
+
+
+  <div class="tab">
+    <a class="sidelinks" href="APMath.html"><button class="tablinks">AP Calculus</button></a>
+    <a class="sidelinks" href="APLang.html"><button class="tablinks">AP Language and Composition</button></a>
+    <a class="sidelinks" href="APScience.html"><button class="tablinks">AP Earth and Enviornmental</button></a>
+    <a class="sidelinks" href="APWorld.html"><button class="tablinks">AP World History</button></a>
+</div>
+<div class="body">
+    <h1>AP Calculus:</h1>
+
+    <p> AP Calculus AB and AP Calculus BC focuses on the understanding of calculus concepts with methods and applications. In both AB and BC it requires the use of
+definitions and theorems in order to answer questions. While the course can come naturally to some people, it
+may be harder to understand for others (like myself). The test consists of 45 multiple choice questions and 6 frq's that are mostly
+AB topics. In order to help you be successful, there are many practice questions that can be found
+in review books and the internet, some of these resources can be found below.</p>
+
+    <h2><p class="heading">Review Books</h2>
+      <div class = "site"><a href = "https://www.amazon.com/Cracking-Calculus-Exam-2019-Preparation/dp/1524757985" target="_blank" style="color:black">Cracking the AP Calculus AB Exam by Princeton Review. </a></div>
+        <img id="lang" src="calc.png">
+        <div class="ptext">
+      <p class="eng"> This Princeton review book has all the topics and practice questions<br> you need to help you suceed in AP Calculus and better prepare you for the exam.<br>
+        This review book includes a comprehensive studyguide that includes three<br> full length, thourough content, and access to the online AP connect portal. <br> This book is one
+      of the best for Calculus review and the difficulty level is<br> pretty comparable to the actual exam. I would recommend this book over the <br>
+      Barron's book as the Barron's book is a lot harder than the actual exam.</p>
+    </div>
+
+      <div class="resources"
+        <body text="black">
+        <h2>AP Calc Resources!</h2>
+        <a href="https://blog.prepscholar.com/ap-calculus-ab-practice-tests" target="_blank" style="color:black">Visit blog.prepscholar.com!</a></p>
+        <a href="https://www.khanacademy.org/math/ap-calculus-ab" target="_blank" style="color:black">Visit khanacademy.org!</a></p>
+        <a href="https://education.ti.com/en/resources/ap-calculus" target="_blank" style="color:black">Visit education.ti.com!</a></p>
+
+      </div>
+
+      <meta charset="UTF-8">
+      <title>Did these help you?</title>
+
+
+          <!-- alternate codepen version https://codepen.io/mad-d/pen/aJMPWr?editors=0010 -->
+          <meta name="viewport" content="width=device-width">
+
+              <!-- alternate codepen version https://codepen.io/mad-d/pen/aJMPWr?editors=0010 -->
+              <h2><p class=heading>Did this help you?</h2>
+                <div class="stars" data-rating="0">
+                    <p class = "star-span" id="star1"><span onclick="incrementValue(1)"class="star">&nbsp;</span></p>
+                    <p class = "star-span" id="star2"><span onclick="incrementValue(2)"class="star">&nbsp;</span></p>
+                    <p class = "star-span" id="star3"><span onclick="incrementValue(3)"class="star">&nbsp;</span></p>
+                    <p class = "star-span" id="star4"><span onclick="incrementValue(4)"class="star">&nbsp;</span></p>
+                    <p class = "star-span" id="star5"><span onclick="incrementValue(5)"class="star">&nbsp;</span></p>
+                </div>
+              <p>Leave us a rating to let us know how we can make your learning experience better!</p>
+
+
+              <p id="rating"><p>
+
+
+                <hr style="border:3px solid #f1f1f1">
+      <div class ="bar-graph">
+                <div class="row">
+                  <div class="side">
+                    <div>5 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div id="bar-5" style="width:80%;height:18px;border:1px solid black;"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div><p id="output5" value="20">20</p></div>
+                  </div>
+                  <div class="side">
+                    <div>4 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div id="bar-4" style="width:60%;height:18px;border:1px solid black;"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div><div> <p id="output4" value="12">12</p></div></div>
+                  </div>
+                  <div class="side">
+                    <div>3 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div id="bar-3" style="width:20%;height:18px;border:1px solid black;"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div><div> <p id="output3" value="4">4</p></div></div>
+                  </div>
+                  <div class="side">
+                    <div>2 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div id="bar-2" style="width:5%;height:18px;border:1px solid black;"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div><div> <p id="output2" value="1">1</p></div></div>
+                  </div>
+                  <div class="side">
+                    <div>1 star</div>
+                  </div>
+                  <div class="middle">
+                    <div class="bar-container">
+                      <div id="bar-1" style="width:0%;height:18px;border:1px solid black;"></div>
+                    </div>
+                  </div>
+                  <div class="side right">
+                    <div><div> <p id="output1" value="0">0</p></div></div>
+                  </div>
+                </div>
+      </div>
+
+
+          <p id="rating"><p>
+          <h2><div class="m">Leave a comment for Achievers with Purpose:</h2></div>
+<div class="u">
+          <form action="mailto:achieverswithpurpose@gmail.com" method="post" enctype="text/plain">
+
+          Comment:<br>
+          <input type="text" name= "comment" size="50"><br>
+          <input type="submit" value="Send">
+          <input type="reset" value="Reset">
+          </form>
+</div>
+          <script src="rating.js"></script>
+
+</body>
+
+</html>

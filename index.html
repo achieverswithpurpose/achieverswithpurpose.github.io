@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <link rel="stylesheet" href="mystyles.css">
+     <link rel = "icon" href = "logo.jpg" type = "image/jpeg">
+    <script src="about_me.js"></script>
+    <!-- This is a comment-->
+    <title> Achievers with Purpose </title>
+
+  <body>
+    <div id="header">
+      <img id="profile-pic" src="logo.jpg"> Achievers With Purpose
+    </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {margin: 0;}
+
+    ul.topnav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #111;
+    }
+
+    ul.topnav li {float: left;}
+
+    ul.topnav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 20px 30px;
+      text-decoration: none;
+    }
+
+    ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+    ul.topnav li a.active {background-color: #0999F1;}
+
+    ul.topnav li.right {float: right;}
+
+    @media screen and (max-width: 600px) {
+      ul.topnav li.right,
+      ul.topnav li {float: none;}
+    }
+    </style>
+    </head>
+
+    <ul class="topnav">
+      <li><a class="active" href="APprep.html">Home</a></li>
+      <li><a href="dates.html">Dates</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="tutor.html">Tutor Resources</a></li>
+    </ul>
+
+  </head>
+
+  <div class="tab">
+<a class="sidelinks" href="APMath.html"><button class="tablinks">AP Calculus</button></a>
+<a class="sidelinks" href="APLang.html"><button class="tablinks">AP Language and Composition</button></a>
+<a class="sidelinks" href="APScience.html"><button class="tablinks">AP Earth and Enviornmental</button></a>
+<a class="sidelinks" href="APWorld.html"><button class="tablinks">AP World History</button></a>
+</div>
+<div class="body">
+    <h1>Excel today using Achievers With Purpose:</h1>
+
+    <p><b>Advanced Placement(AP) classes</b> can be very difficult, stressful, challenging, risky and encouraging. <b>AP Environmental Science(APES)</b> is one of the hardest science AP classes and is available for most students after freshman year. Before taking APES you should take a chemistry and a biology class before hand. <b>AP Language and Composition</b> is mostly essays and if you don’t like writing or you find writing difficult we would not suggest this class. <b>AP World</b> is a college board course usually taken during sophomore year but is not required. The course mainly focuses on prehistory and history, especially from 8000 BCE to the present day.
+<b>AP Calculus</b> is also a set of two college board courses called AB and BC. AP Calculus AB covers limits, derivatives, and integrals. AP Calculus BC covers all AP Calculus AB topics plus additional topics (including more integration techniques such as integration by parts, Taylor series, parametric equations, polar coordinate functions, and curve interpolations).
+</p>
+
+<script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+
+      title:{
+        text: "Percentage of students scoring 3+ on the AP exam in 2019"
+      },
+      data: [//array of dataSeries
+        { //dataSeries object
+
+         /*** Change type "column" to "bar", "area", "line" or "pie"***/
+         type: "column",
+         dataPoints: [
+         { label: "Calculus", y: 81.5 },
+         { label: "Language and Composition", y: 55.1 },
+         { label: "Earth and Environmental", y: 56  },
+         { label: "World History", y: 49.6 },
+
+         ]
+       }
+       ],
+      axisY:{
+      suffix: "%"
+    }
+
+     });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <div id="chartContainer" style="height: 400px; width: 50%;">
+    </div>
+
+
+
+
+
+
+
+
+  </body>
+</html>
